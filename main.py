@@ -3,8 +3,10 @@ import random
 
 #variables
 realWord = SUPER
-guessedWord
+guessedWord = ""
 
 #main code
 
-input = 
+guessedWord = input("Guess the word")
+while len(guessedWord) != 5:
+    guessedWord = input("Invalid input, try again")
